@@ -1,0 +1,96 @@
+.Leaving {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/id/1316709708/photo/volunteer-taking-care-of-dog-in-shelter.jpg?s=612x612&w=0&k=20&c=4A06X_o-41XIJUEo0xNC-kkiskWivmyeJQyff5XgV2U=");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  .form-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative; 
+    background:transparent; 
+  }
+  
+  .form-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:transparent; 
+    border-radius: 5px; 
+    z-index: -1; 
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px; 
+  }
+  
+  form {
+    position: relative; 
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background:transparent; 
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+    display: block; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #a2a8ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:burlywood;
+  }
+  
+  .submitted-data {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:#ddd; 
+  }
+
+

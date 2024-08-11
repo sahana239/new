@@ -1,0 +1,71 @@
+.about-us {
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url('https://img.freepik.com/premium-photo/golden-retriever-puppy_416434-17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .mission-vision h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .mission-vision p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-us-tools h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .tool-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tool-card {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tool-icon img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .tool-card h3 {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+  
+  .tool-card p {
+    font-size: 1em;
+    margin: 15px 0;
+  }
+  
+  .learn-more {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
